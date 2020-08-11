@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "ls -al"
+curl -v "https://www.google.com/"
