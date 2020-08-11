@@ -16,5 +16,7 @@ jobs:
           kubernetes version: 'v1.18.2'
       - name: Interact with the cluster
         run: kubectl get nodes
+      - name: Show Services
+        run: kubectl get svc -n kube-system
       - name: show files
         uses: ./action-a
