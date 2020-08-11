@@ -1,0 +1,8 @@
+name: "Testing Action"
+description: "show files"
+author: "aymen"
+
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
